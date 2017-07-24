@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" charset="UTF-8" content="width=device-width, initial-scale=1.0"/>
+    <title>{% block title %}{% endblock %}</title>
+    <script type="../text/javascript" src="../scripts/jquery-3.2.1.min.js"></script>
+    <script type="../text/javascript" src="../scripts/socket.io.min.js"></script>
+    <script type="../text/javascript" src="../scripts/materialize.min.js"></script>
+    <link href="../styles/materialize.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="../styles/main.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <div class="navbar-fixed">
+      <nav id="navtop" class="white"><div class="nav-wrapper container"><div class="row">
+        <div class="grey-text right"><span id="headcont">CHIT</span></div>
+      </div></div></nav>
+    </div>
+    <div class="container" align="center">
+      <div id="mainrow" class="row">
+        <div id="formcont" class="white col s10 offset-s1">
+          <form id="login" action="{{url_for('logon')}}" class="card-content row" align="center" method="POST">
+            <br/>
+            <div class="col s12 input-field">
+              <span>Username: </span><input id="inputunpw" name="username" type="text">
+              <span>Password: </span><input id="inputunpw" name="password" type="password">
+            </div>
+            <div class="col s12 center">
+              <button id="signbtn" class="btn z-depth-1 blue darken-1 waves-effect waves-light" type="submit">Logon</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

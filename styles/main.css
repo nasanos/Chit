@@ -1,0 +1,63 @@
+@font-face {
+  font-family: Dosesque;
+  src: url("../fonts/perfectdosvga.ttf");
+}
+
+html {
+  font-family: Dosesque;
+}
+
+textarea:focus {
+  border-bottom: 1px solid #1e88e5 !important;
+  box-shadow: 0 1px 0 0 #1e88e5 !important;
+}
+
+#inputunpw:focus {
+  border-bottom: 1px solid #1e88e5 !important;
+  box-shadow: 0 1px 0 0 #1e88e5 !important;
+}
+
+#chatp {
+  margin-bottom: 1%;
+  padding-left: 7%;
+  text-indent: -5%;
+}
+
+#headcont {
+  font-size: 32pt;
+}
+
+#mainrow {
+  width: 100%;
+  height: 100%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  padding: 5%;
+}
+
+#chatcont {
+  padding: 1%;
+  height: 30vh;
+}
+#chatlog {
+  height: 100%;
+  padding: 2%;
+  overflow: scroll;
+  text-align: left;
+}
+
+#formcont {
+  margin-top: 2%;
+  padding: 5%;
+}
+
+#navtop {
+  box-shadow: none;
+  border-bottom: 2px dashed grey;
+}
+
+#navbottom {
+  padding: 5%;
+  box-shadow: none;
+  border-top: 2px dashed grey;
+}
