@@ -18,5 +18,8 @@ This project, created in Python with Flask, is a simple chat web application wit
 * Refine design and layout for mobile
 
 ## Screenshots
-![Conversation-selection](https://github.com/nasanos/Chit/blob/master/ex_img1.png)
+### Conversation selection
+![Conversation selection](https://github.com/nasanos/Chit/blob/master/ex_img1.png)
+
+### Chit's chatting interface
 ![Chit's chatting action](https://github.com/nasanos/Chit/blob/master/ex_img2.png)
