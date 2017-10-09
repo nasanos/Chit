@@ -16,3 +16,7 @@ This project, created in Python with Flask, is a simple chat web application wit
 * Limit users' possible conversations to (editable) friend lists
 * Allow more than two users per conversation
 * Refine design and layout for mobile
+
+## Screenshots
+![Conversation-selection](https://github.com/nasanos/Chit/blob/master/ex_img1.png)
+![Chit's chatting action](https://github.com/nasanos/Chit/blob/master/ex_img2.png)
