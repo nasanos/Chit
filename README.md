@@ -1,4 +1,4 @@
-# CHIT
+# Chit Messenger
 
 ## What It Is
 This project, created in Python with Flask, is a simple chat web application with a basic login functionality. It's a product of a period of study and experimentation with the Flask framework and web application development generally.
